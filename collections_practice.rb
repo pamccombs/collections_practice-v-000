@@ -23,6 +23,9 @@ end
 end
 
 def reverse_array(array)
+  array.sort do |a, b|
+  a.reverse <=> b.reverse
+end
 end
 
 def kesha_maker(array)
