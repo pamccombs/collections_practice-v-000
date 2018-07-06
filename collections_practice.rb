@@ -27,12 +27,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  i = 0
-  while i < array.length
-  yield array[i]
-  i = i + 1
-  end
-  words
+  
 end
 
 def find_a(array)
