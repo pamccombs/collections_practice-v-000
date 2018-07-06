@@ -50,4 +50,3 @@ def add_s(array)
     a[last] = "s"
   end
 end
-end
