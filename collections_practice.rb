@@ -28,7 +28,8 @@ end
 
 def kesha_maker(array)
   array.each do |a|
-    a
+    a["..."] = "$"
+  end
 end
 
 def find_a(array)
