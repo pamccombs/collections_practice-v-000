@@ -23,8 +23,7 @@ end
 end
 
 def reverse_array(array)
-  array.sort do 
-    a.reverse
+  array.reverse
 end
 end
 
