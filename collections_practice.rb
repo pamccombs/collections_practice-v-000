@@ -47,7 +47,7 @@ end
 
 def add_s(array)
   array.each do |a|
-    next if a == "feet"
+    next if a == array[1]
     a << "s"
     
   end
