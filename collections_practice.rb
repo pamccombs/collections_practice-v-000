@@ -39,6 +39,7 @@ def find_a(array)
     a.start_with?("a") << a_words
     
   end
+  a_words
 end
 
 def sum_array(array)
