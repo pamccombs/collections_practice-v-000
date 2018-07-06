@@ -34,7 +34,6 @@ def kesha_maker(array)
   end
   words
 end
-end
 
 def find_a(array)
 end
