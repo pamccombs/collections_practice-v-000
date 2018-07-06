@@ -48,5 +48,6 @@ end
 def add_s(array)
   array.each do |a|
     puts a << "s"
+    a[2]
   end
 end
