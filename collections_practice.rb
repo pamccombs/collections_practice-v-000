@@ -27,8 +27,13 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.sort do |i|
-  puts i
+  i = 0
+  while i < words.length
+  yield words[i]
+  i = i + 1
+  end
+  words
+end
 end
 end
 
